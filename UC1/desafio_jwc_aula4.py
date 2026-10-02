@@ -30,11 +30,11 @@
 
 # Código:
 
-print("A)git clone=copiar um repositório já existente/remoto para a sua máquina")
+# print("A)git clone=copiar um repositório já existente/remoto para a sua máquina")
 # clone = clonar; você copia um repositório já existente para a sua máquina 
-print("B)git push= enviar/empurrar as alterações que você fez para o GitHub")
+# print("B)git push= enviar/empurrar as alterações que você fez para o GitHub")
 # push=puxar; você empurra para o seu repositório do GitHub tudo aquilo que você modificou 
-print("C)git pull=baixar/puxar para a sua máquina as atualizações que alguém fez no GitHub")
+# print("C)git pull=baixar/puxar para a sua máquina as atualizações que alguém fez no GitHub")
 # pull=puxar; você puxa as alteraçõs que alguém fez no GitHub para a sua máquina
 
 
@@ -62,12 +62,12 @@ print("C)git pull=baixar/puxar para a sua máquina as atualizações que alguém
 
 # Código:
 
-senha_digitada= "DevSec2026"
+# senha_digitada= "DevSec2026"
 
-if senha_digitada == "JWC@Admin":
-         print("Acesso liberado")
-else:
-         print("Acesso Negado")         
+# if senha_digitada == "JWC@Admin":
+        #  print("Acesso liberado")
+# else:
+        #  print("Acesso Negado")         
 
 # ==============================================================================
 # DESAFIO 4: Classificação de Ameaças (Condicionais if / elif / else)
@@ -84,15 +84,15 @@ else:
 
 # Código:
 
-nivel_ameaca=3
-if nivel_ameaca == 1 :
-    print("Baixa:Adicionar ao Backlog da Sprint")
-elif nivel_ameaca == 2 :
-    print("Média: Desenvolvedor deve revisar hoje")
-elif nivel_ameaca == 3 :
-    print("Alta/Crítica: Acionar Matheus (DevSecOps) imediatamente")
-else: 
-    print("Nível não reconhecido")
+# nivel_ameaca=3
+# if nivel_ameaca == 1 :
+    # print("Baixa:Adicionar ao Backlog da Sprint")
+# elif nivel_ameaca == 2 :
+    # print("Média: Desenvolvedor deve revisar hoje")
+# elif nivel_ameaca == 3 :
+    # print("Alta/Crítica: Acionar Matheus (DevSecOps) imediatamente")
+# else: 
+    # print("Nível não reconhecido")
 
 
 
@@ -112,3 +112,19 @@ else:
 # Caso Padrão (_): "Opção inválida. Tente novamente."
 
 # Código:
+
+opcao_menu=3
+match opcao_menu:
+#CASO 1
+ case 1: 
+    print("Iniciando varredura SAST no código fonte...")
+ #CASO 2
+ case 2: 
+    print("Iniciando processo de sanitização de metadados...")
+ #CASO 3
+ case 3:
+    print("Gerando relatório OWASP de vulnerabilidade...")
+ #CASO PADRÃO
+ case _ :
+    print("Opção inválidade. Tente novamente.")
+    
