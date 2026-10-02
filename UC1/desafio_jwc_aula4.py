@@ -113,18 +113,36 @@
 
 # Código:
 
-opcao_menu=3
-match opcao_menu:
+# opcao_menu=3
+# match opcao_menu:
 #CASO 1
- case 1: 
-    print("Iniciando varredura SAST no código fonte...")
+#  case 1: 
+    # print("Iniciando varredura SAST no código fonte...")
  #CASO 2
- case 2: 
-    print("Iniciando processo de sanitização de metadados...")
- #CASO 3
- case 3:
-    print("Gerando relatório OWASP de vulnerabilidade...")
- #CASO PADRÃO
- case _ :
-    print("Opção inválidade. Tente novamente.")
-    
+#  case 2: 
+#     # print("Iniciando processo de sanitização de metadados...")
+#  #CASO 3
+# #  case 3:
+#     # print("Gerando relatório OWASP de vulnerabilidade...")
+#  #CASO PADRÃO
+#  case _ :
+#     print("Opção inválidade. Tente novamente.")
+
+
+#RESOLVER EM CASA:
+
+number= 1,2,3,4,5
+match number: 
+
+case 1:
+    print("Número válido")
+case 2: 
+    print("Número válido")
+case 3:
+    print("Número válido")
+case 4:
+    print("Número válido")
+case 5:
+    print("Número válido")
+case _:
+print("Número inválido")
