@@ -30,6 +30,14 @@
 
 # Código:
 
+print("A)git clone=copiar um repositório já existente/remoto para a sua máquina")
+# clone = clonar; você copia um repositório já existente para a sua máquina 
+print("B)git push= enviar/empurrar as alterações que você fez para o GitHub")
+# push=puxar; você empurra para o seu repositório do GitHub tudo aquilo que você modificou 
+print("C)git pull=baixar/puxar para a sua máquina as atualizações que alguém fez no GitHub")
+# pull=puxar; você puxa as alteraçõs que alguém fez no GitHub para a sua máquina
+
+
 # ==============================================================================
 # DESAFIO 2: Simulação de Desastres (Recuperação de Arquivos)
 # ==============================================================================
@@ -40,7 +48,7 @@
 # do Git você usaria para realizar a recuperação dos arquivos?
 
 # Código:
-
+#git pull ou git clone 
 
 # ==============================================================================
 # DESAFIO 3: Controle de Acesso ao Servidor (Condicional if / else)
@@ -54,6 +62,12 @@
 
 # Código:
 
+senha_digitada= "DevSec2026"
+
+if senha_digitada == "JWC@Admin":
+         print("Acesso liberado")
+else:
+         print("Acesso Negado")         
 
 # ==============================================================================
 # DESAFIO 4: Classificação de Ameaças (Condicionais if / elif / else)
@@ -69,6 +83,18 @@
 # - Para qualquer outro valor: Imprima "Nível não reconhecido."
 
 # Código:
+
+nivel_ameaca=3
+if nivel_ameaca == 1 :
+    print("Baixa:Adicionar ao Backlog da Sprint")
+elif nivel_ameaca == 2 :
+    print("Média: Desenvolvedor deve revisar hoje")
+elif nivel_ameaca == 3 :
+    print("Alta/Crítica: Acionar Matheus (DevSecOps) imediatamente")
+else: 
+    print("Nível não reconhecido")
+
+
 
 
 

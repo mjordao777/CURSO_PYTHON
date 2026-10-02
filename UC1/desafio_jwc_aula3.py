@@ -117,4 +117,11 @@
 # 4. Exiba o resultado formatado (f-string) na tela para o professor: 
 #    "Sistema JWC: O aluno [nome] fechou o ano com média [media]".
 
-# Código:
+# Código: 
+
+nota1_input= float(input("Qual é a nota do 1º trimestre? "))
+nota2_input= float(input("Qual é a nota do 2º trimestre? "))
+nota3_input= float(input("Qual é a nota do 3º trimestre? "))
+
+media_das_notas= (nota1_input + nota2_input + nota3_input)/3
+print(f"A média é: {media_das_notas:.2f}")
