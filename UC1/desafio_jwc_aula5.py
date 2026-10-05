@@ -51,7 +51,7 @@
 # Caso contrário, imprima "Atendimento automatizado em andamento.".
 
 # Código:
-## o in -> verifica se algo está contido dentro de outra coisa 
+## in -> verifica se algo está contido dentro de outra coisa / "está dentro de?"
 ## or-> basta uma das condições ser verdadeira 
 
 
@@ -96,6 +96,8 @@
 # Caso contrário, imprima "Emissão bloqueada. Verifique suas pendências ou nota.".
 
 # Código:
+
+##and-> as duas condições precisam ser verdadeiras.
 
 # nota_final= 8.5
 # possui_pendencia=False 
@@ -197,6 +199,20 @@
 
 # Código:
 
+codigo_status= 2
+
+# match codigo_status: 
+
+#     case 1: 
+#         print("Aprovado: Código limpo e pronto para produção.")
+#     case 2:
+#         print("Aprovado com ressalvas: Ajustrar nomes de variáveis")
+#     case 3:
+#         print("Reprovado: Reescrever lógica e adicionar tratamento de erros")
+#     case _:
+#         print(" Status não identificado. Consulte a Eduarda")
+
+
 
 
 
@@ -218,7 +234,13 @@
 
 # Código:
 
+ex_aluno=False
+cupom_valido=True 
+is_black_friday=True 
 
+if ex_aluno or cupom_valido and  is_black_friday
+    print("Desconto de 20% aplicado!")
+ 
 # ==============================================================================
 # DESAFIO 10 (OPCIONAL): Liberação de Feature Flag em Produção
 # ==============================================================================
