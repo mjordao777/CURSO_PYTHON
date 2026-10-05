@@ -28,6 +28,16 @@
 
 # Código:
 
+# idade=20
+# matricula_ativa= True 
+
+# if idade > 18 and matricula_ativa == True: 
+#     print("Acesso liberado ao módulo avançado")
+# else: 
+#     print("Acesso negado:Requisitos não preenchidos")
+
+
+
 # ==============================================================================
 # DESAFIO 2: Triagem de Mensagens no Chatbot (Operador 'or')
 # ==============================================================================
@@ -41,6 +51,17 @@
 # Caso contrário, imprima "Atendimento automatizado em andamento.".
 
 # Código:
+## o in -> verifica se algo está contido dentro de outra coisa 
+## or-> basta uma das condições ser verdadeira 
+
+
+# mensagem_cliente= "Quero falar com o suporte" 
+
+# if "suporte" in mensagem_cliente or "financeiro" in mensagem_cliente: 
+#      print("Transferindo para um atendente humano...")
+# else: 
+#     print("Atendimento automatizado em andamento")
+
 
 # ==============================================================================
 # DESAFIO 3: Status de Manutenção do Sistema (Operador 'not')
@@ -54,6 +75,15 @@
 # Caso contrário, imprima "Sistema em manutenção. Tente novamente mais tarde.".
 
 # Código:
+## not True= False e not False= True 
+
+
+# em_manutencao= False
+
+# if not em_manutencao:
+#     print("Servidor operacional. Iniciando rotina.")
+# else:
+#     print("Sistema em manutenção. Tente novamente mais tarde.")
 
 # ==============================================================================
 # DESAFIO 4: Emissão de Certificado de Conclusão (Operadores 'and' e 'not')
@@ -67,6 +97,13 @@
 
 # Código:
 
+# nota_final= 8.5
+# possui_pendencia=False 
+
+# if nota_final >= 7 and not possui_pendencia:
+#     print("Certificado emitido com sucesso!")
+# else:
+#     print("Emissão bloqueada") 
 
 # ==============================================================================
 # DESAFIO 5: Classificação de Desempenho do Código (if / elif / else com 'and')
@@ -80,6 +117,29 @@
 # - Se tempo_resposta_ms > 300: "Atenção: Código precisa de otimização!"
 
 # Código:
+
+# tempo_resposta_ms=120
+
+# if tempo_resposta_ms<100:
+#     print("Excelente performance")
+# elif tempo_resposta_ms>= 100 and tempo_resposta_ms <= 300: 
+#     print("Performance aceitável")  
+# elif tempo_resposta_ms >300:
+#     print(" Atenção: Código  precisa de otimização!")
+
+#PODE TAMBÉM USAR AUTOMATICAMENTE O ELSE E O PRIN NO FINAL, POIS, SE NÃO FOR MENOR OU IGUAL A 300 SERÁ MAIOR
+
+# tempo_resposta_ms=75
+
+# if tempo_resposta_ms<100:
+#     print("Excelente performance")
+# elif tempo_resposta_ms>= 100 and tempo_resposta_ms <= 300: 
+#     print("Performance aceitável")  
+# else :
+#     print(" Atenção: Código  precisa de otimização!")
+
+
+
 
 
 # ==============================================================================
@@ -95,6 +155,13 @@
 
 # Código:
 
+# horas_extras= 15
+# projetos_entregues= 6
+# nota_avaliacao= 9.0
+# if horas_extras > 20 or projetos_entregues > 5 and nota_avaliacao > 8:
+#     print(" Colaborador elegível")
+# else: 
+#     print("Critérios de bônus não atingidos")
 
 # ==============================================================================
 # DESAFIO 7: Validação de Cadastro de Usuário (Análise de Strings com 'and')
@@ -109,6 +176,13 @@
 
 # Código:
 
+# usuario="dev_python"
+
+# if len(usuario) > 3 and ' ' not in usuario:
+#     print("Nome de usuário válido")
+# else: 
+#     print("Nome de usuário inválido")
+
 
 # ==============================================================================
 # DESAFIO 8: Menu de Feedback de Code Review (Match-Case)
@@ -122,6 +196,8 @@
 # - Caso Padrão (_): "Status não identificado. Consulte a Eduarda."
 
 # Código:
+
+
 
 
 # ==============================================================================
