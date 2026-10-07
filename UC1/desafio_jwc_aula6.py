@@ -15,6 +15,7 @@
 # de repetição (loops) sem travar os nossos servidores."
 
 
+
 # ==============================================================================
 # DESAFIO 1: Disparo de Mensagens via WhatsApp (Laço 'for')
 # ==============================================================================
@@ -26,6 +27,27 @@
 # "Enviando mensagem via Whapi.Cloud para: [Nome]"
 
 # Código:
+## for= serve para repetir uma ação 
+
+# novos_alunos=["Ana", "Carlos", "Beatriz", ]
+# print(novos_alunos)
+##COMO COLOCAR APENAS UM DOS NOMES DA LISTA:
+# print(novos_alunos[0])
+# print(novos_alunos[1])
+# print(novos_alunos[2])
+##CONTINUAÇÃO DO EXERCÍCIO...
+# for aluno in novos_alunos:
+#         print(f"Enviando mensagem via Whapi.Cloud para: {aluno}")
+
+##OUTRO EXEMPLOS:
+# nomes_para_votar=["Mayara", "Vasco", "Lucas"]
+##VAI SAIR O NOME DE CADA UM INDIVIDUALMENTE EM CADA OPÇÃO DE PRINT
+# for nome in nomes_para_votar:
+#     print(f"DOCUMENTO - {nome}")
+#     print(f"ASSINAR - {nome}")
+#     print(f"VERIFICAR DIGITAL - {nome}")
+#     print(f"VOTAR - {nome}")
+
 
 
 # ==============================================================================
@@ -40,6 +62,12 @@
 
 # Código:
 
+# tentativas=1
+
+# while tentativas <=3:
+#     print(f"Tentativa de convexão Dialogflow: {tentativas}")
+#     tentativas= tentativas + 1
+
 
 # ==============================================================================
 # DESAFIO 3: Filtro de Intenções (Intents) (Laço 'for' com 'if')
@@ -53,6 +81,13 @@
 
 # Código:
 
+# intencoes=["Duvida","Matricula","Reclamacao","Matricula"]
+
+# for intencao in intencoes:
+#     if intencao == "Matricula":
+#         print("Processando fluxo de matrícula no Make.com...")
+#     else:
+#         print("Intençãoo ignorada.")
 
 # ==============================================================================
 # DESAFIO 4: Menu Interativo de Automação (Simulação de 'Do-While')
@@ -67,6 +102,15 @@
 
 # Código:
 
+##EXERCICIOS DE FLUXO NO TERMINAL 
+# while True: 
+#     opcao=int(input("Digite 1 para iniciar o chatbot ou 0 para sair:"))
+#     if opcao == 0:
+#         print("Encerrando sistema...")
+#         break
+#     if opcao == 1:
+#         print("Chatbot iniciado!")
+        
 
 # ==============================================================================
 # DESAFIO 5: Contagem Regressiva para Deploy (Função range)
@@ -78,6 +122,8 @@
 # Dica: range(inicio, parada, passo).
 
 # Código:
+
+
 
 
 # ==============================================================================
