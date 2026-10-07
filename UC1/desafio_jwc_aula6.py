@@ -122,6 +122,19 @@
 # Dica: range(inicio, parada, passo).
 
 # Código:
+##EXEMPLO do W3SCHOOLS
+# x = range(3, 6)
+# for n in x:
+#   print(n)
+
+
+
+# contagem_regressiva= range(5,0,-1)
+
+# for contagem in contagem_regressiva:
+#     print (contagem)
+# print("Servidor iniciado!")
+
 
 
 
